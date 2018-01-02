@@ -1,5 +1,7 @@
 # Day3   CSS Variables
 
+[DEMO](http://htmlpreview.github.io/?https://github.com/lttxzmj/JS30/blob/master/03-CSS%20Variables/index.html)
+
 ## 思路：
 
   - 首先定义 CSS 变量，然后在页面样式中对页面变量进行关联
