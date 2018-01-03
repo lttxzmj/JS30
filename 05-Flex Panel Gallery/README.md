@@ -9,7 +9,9 @@
 [十个div+css布局原则与技巧](https://zhuanlan.zhihu.com/p/25855794)
 
 >让 box-sizing 继承 div.box：
+
 >*, *:before, *:after { box-sizing: inherit; } （存在底层样式里或某个组件、某个业务区域）
+
 >.box{ box-sizing: border-box; } （当前需要控制的对象）
 
 
