@@ -1,5 +1,7 @@
 # Day5 Flex Panels Image Gallery
 
+[DEMO](http://htmlpreview.github.io/?https://github.com/lttxzmj/JS30/blob/master/05-Flex%20Panel%20Gallery/index.html)
+
 ## 涉及到的知识点：
 
 1.[`border-box`](https://developer.mozilla.org/zh-CN/docs/Web/CSS/box-sizing)
@@ -7,9 +9,7 @@
 [十个div+css布局原则与技巧](https://zhuanlan.zhihu.com/p/25855794)
 
 >让 box-sizing 继承 div.box：
-
 >*, *:before, *:after { box-sizing: inherit; } （存在底层样式里或某个组件、某个业务区域）
-
 >.box{ box-sizing: border-box; } （当前需要控制的对象）
 
 
