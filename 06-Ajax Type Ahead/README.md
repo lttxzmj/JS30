@@ -4,13 +4,13 @@
 
 ## 思考过程
 
-1. 声明一个空数组，用于存放解析 json 后的数据
+1. 声明一个空数组，用于存放解析 `json` 后的数据
 
-2. 运用 fetch() 发送 HTTP 请求
+2. 运用 `fetch()` 发送 HTTP 请求
 
-    - 获取返回的 Promise 对象
+    - 获取返回的 `Promise` 对象
 
-    - 解析 JSON 数据
+    - 解析 `JSON` 数据
 
     - 存入数组
 
@@ -28,22 +28,22 @@
 
     - 替换关键词放入高亮的标签
 
-    - 构造 HTML 标签数据
+    - 构造 `HTML` 标签数据
 
-    - 将匹配值的 HTML 标签放入 <ul> 中
+    - 将匹配值的 `HTML` 标签放入 `<ul>` 中
   
 
 ## 涉及的知识点
 
-1. Promise
+1. `Promise`
 
    - [`fetch`](https://developer.mozilla.org/zh-CN/docs/Web/API/GlobalFetch/fetch)
 
-2. Array
+2. `Array`
 
     - `push()`
 
-    利用扩展运算符可以替代 ES5 中的 push 方法添加一个数组到另一个数组末尾，两种语法的写法如下：
+    利用扩展运算符可以替代 ES5 中的 `push` 方法添加一个数组到另一个数组末尾，两种语法的写法如下：
 
     ```
     // 将arr2中的所有元素添加到arr1中
@@ -61,11 +61,11 @@
 
 3. RegExp
 
-    - match()
+    - `match()`
 
     > 字符串对象的match方法对字符串进行正则匹配，返回匹配结果。
 
-    - replace()
+    - `replace()`
 
     > 字符串对象的replace方法可以替换匹配的值。它接受两个参数，第一个是搜索模式，第二个是替换的内容。
 
