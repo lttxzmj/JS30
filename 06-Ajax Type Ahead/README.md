@@ -1,5 +1,7 @@
 # Day6 Ajax Type Ahead
 
+[DEMO](http://htmlpreview.github.io/?https://github.com/lttxzmj/JS30/blob/master/06-Ajax%20Type%20Ahead/index.html)
+
 ## 思考过程
 
 1. 声明一个空数组，用于存放解析 json 后的数据
