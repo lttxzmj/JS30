@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Dev Tools</title>
+  </head>
+  <body>
+    <p onclick="makeGreen()">hello word</p>
+    <script type="text/javascript">
+      const dogs = [
+        {
+          name: 'Betty',
+          age: 2
+        }, {
+          name: 'jughead',
+          age: 8
+        }
+      ];
+      function makeGreen() {
+        const p = document.querySelector('p');
+        p.style.color = '#BaDA55';
+        p.style.fontSize = '50px';
+        console.log(p);
+      }
+
+      console.warn('OH NOOO');
+      console.error('wrong!!');
+      console.info('It a test!');
+      console.clear();
+
+      //Grouping
+      dogs.forEach(dog => {
+        console.groupCollapsed(`${dog.name}`);
+      });
+      //console.count()
+      console.count('Betty'); //1
+      console.count('Betty'); //2
+
+      // timing
+      console.time('fetching data'); //772.39990234375ms
+      fetch('https://api.github.com/users/wesbos').then(data => data.json()).then(data => {
+        console.timeEnd('fetching data');
+        console.log(data);
+      });
+      //table
+      console.table(dogs);
+    </script>
+  </body>
+</html>
